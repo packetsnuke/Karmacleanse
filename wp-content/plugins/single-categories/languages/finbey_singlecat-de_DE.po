@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SingleCategories\n"
+"POT-Creation-Date: 2012-11-30 10:10+0100\n"
+"PO-Revision-Date: 2012-11-30 11:10+0100\n"
+"Last-Translator: Florian Rueckert <f.rueckert@finbey.de>\n"
+"Language-Team: Florian Rueckert <f.rueckert@finbey.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../single_categories.php:72
+msgid "Permalink to"
+msgstr "Permalink zu"
+
+#: ../single_categories.php:76
+msgid "Posted on"
+msgstr "Publiziert am"
+
+#: ../single_categories.php:80
+msgid "by"
+msgstr "von"
+
+#: ../single_categories.php:82
+msgid "View all posts by"
+msgstr "Zeige alle Beiträge von"
+
+#: ../single_categories.php:90
+msgid "Continue reading"
+msgstr "Weiterlesen"
+
+#: ../single_categories.php:100
+msgid "Leave a comment"
+msgstr "Kommentiere"
+
+#: ../single_categories.php:101
+msgid "comments"
+msgstr "Kommentare"
+
+#: ../single_categories.php:102
+msgid "no comments"
+msgstr "Keine Kommentare"
+
+#: ../single_categories.php:103
+msgid "comment"
+msgstr "Kommentar"

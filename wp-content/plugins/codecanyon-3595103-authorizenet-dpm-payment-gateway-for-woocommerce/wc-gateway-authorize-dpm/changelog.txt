@@ -1,0 +1,22 @@
+*** Authorize.Net DPM Changelog ***
+
+2013.04.08 - version 1.1.1
+ * Fix bug: inlude js file instead of print code inline
+
+2013.03.09 - version 1.1.0
+ * Compatible to Woo2
+ * Custom language support
+
+2012.12.10 - version 1.0.2
+ * Update charge type
+ * Add email billing info
+ * Change authorizeListener to authorizeListenerDPM
+ * Update: Detect loaded SDK
+ * Fixbug: Correct default title - Authorize.Net instead of Authorize only
+ * Add log payment completed step
+ 
+2012.12.08 - version 1.0.1
+ * Remove notify SSL
+ 
+2012.12.07 - version 1.0.0
+ * First Release

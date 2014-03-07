@@ -1,0 +1,6 @@
+*** TradeGecko Integration ***
+
+2013.09.17 - version 1.0.1
+ * Tweak: added user agent to the requests.
+2013.07.23 - version 1.0
+ * Initial release.

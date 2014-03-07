@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Posts Filter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-09 18:24+0400\n"
+"PO-Revision-Date: 2012-05-09 18:29+0400\n"
+"Last-Translator: Oleg Lepeshchenko <mail@olezhek.net>\n"
+"Language-Team: Oleg Lepeshchenko <mail@olezhek.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter\n"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:78
+msgid "WP Posts Filter settings"
+msgstr "Настройки WP Posts Filter"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:86
+msgid "Global settings"
+msgstr "Глобальные настройки"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:88
+msgid "Maximum posts per page: *"
+msgstr "Максимальное количество записей на странице: *"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:91
+msgid "Heading tag for the posts on a page:"
+msgstr "Тег заголовка поста на странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:91
+msgid "Heading class for the posts on a page:"
+msgstr "CSS-класс заголовка поста на странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:91
+msgid "Content tag for the posts on a page:"
+msgstr "Тег для содержимого поста на странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:91
+msgid "Content class for the posts on a page:"
+msgstr "CSS-класс тега для содержимого поста на странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:92
+msgid "Tags and styles settings **"
+msgstr "Настройки тегов и стилей **"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:97
+#, fuzzy
+msgid "* Works for all pages except for the home page. To customize posts limit for the home page please refer to \"Settings\" -> \"Reading\" section"
+msgstr "* Действительно для всех страниц, за исключением главной. Настройка максимального количества записей для главной страницы расположена здесь: \"Настройки\" -> \"Чтение\""
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:98
+msgid "** You can set up custom styles and tags for every page you have. To perform this please refer to the page settings below"
+msgstr "** Вы можете задать свои стили и теги для каждой страницы вашего блога. Для этого перейдите к настройке конкретной странице ниже"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:100
+msgid "Pages: "
+msgstr "Страницы:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:111
+msgid "Home page"
+msgstr "Главная страница"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:111
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:117
+msgid "Link"
+msgstr "Ссылка"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:134
+msgid "Show pages from categories:"
+msgstr "Отображать записи из следующих рубрик:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:136
+msgid "Show pages containing tags:"
+msgstr "Отображать записи, содержащие следующие метки:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:144
+msgid "Check all"
+msgstr "Отметить все"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:220
+msgid "Categories"
+msgstr "Рубрикам"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:222
+msgid "Tags"
+msgstr "Меткам"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:224
+msgid "Both categories and tags"
+msgstr "По рубрикам и меткам"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:226
+msgid "None"
+msgstr "Не фильтровать"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:249
+msgid "WP Posts Filter Settings"
+msgstr "Настройки WP Posts Filter"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:249
+msgid "WP Posts Filter"
+msgstr ""
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:259
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:386
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Предыдущая страница"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:309
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:391
+msgid "Next Page &raquo;"
+msgstr "Следующая страница &raquo;"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:399
+msgid "Filter by:"
+msgstr "Фильтровать по:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:403
+msgid "Maximum posts per this page:"
+msgstr "Максимальное количество записей для этой страницы:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:415
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:437
+msgid "Custom value: "
+msgstr "Другое значение:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:421
+msgid "Heading tag for the posts on this page:"
+msgstr "Тег заголовка поста на этой странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:421
+msgid "Heading class for the posts on this page:"
+msgstr "CSS-класс заголовка поста на этой странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:421
+msgid "Content tag for the posts on this page:"
+msgstr "Тег для содержимого поста на этой странице:"
+
+#: /home/www/localhost/wp2/wp-content/plugins/wp-posts-filter/wp-posts-filter.php:421
+msgid "Content class for the posts on this page:"
+msgstr "CSS-класс тега для содержимого поста на этой странице:"
+
+#~ msgid ""
+#~ "This plugin filters posts by category or tag to list them in the "
+#~ "particular page."
+#~ msgstr ""
+#~ "Плагин предназначен для фильтрации постов по рубрикам и меткам и "
+#~ "отображения их на определенной странице"
+
+#~ msgid "Oleg Lepeshchenko"
+#~ msgstr "Олег Лепещенко"

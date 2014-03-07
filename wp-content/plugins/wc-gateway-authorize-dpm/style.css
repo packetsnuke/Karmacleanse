@@ -1,0 +1,3 @@
+#authorize_dpm_payment_form input.error, #authorize_dpm_payment_form select.error {
+	border: 1px solid red;
+}

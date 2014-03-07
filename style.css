@@ -1,0 +1,451 @@
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+#header{
+	margin: 0px 120px 40px 120px;
+    border-bottom: 15px solid #1A0B04;
+    background-image: url('images/paperbanner.png');
+            -webkit-box-shadow: 0 5px 10px #aaa;
+              -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    padding-left: 5%;
+    max-height: 145px;
+    max-width: 85em;
+}
+
+.cross-sells {
+    background: #ECE9E6;;
+    border-radius 2px;
+    margin: 1em;
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.woocommerce-message {
+    background: #ECE9E6;;
+    border-radius 2px;
+    margin: 1em;
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+}
+.post-meta {
+  visibility: hidden;
+}
+
+.category-featured {
+  margin: 5em 12em;
+  background-color: #f7f2ee;
+  border: 1px solid #c4bfbb;
+  border-bottom: 0;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),  
+ 0 10px 0 -5px #eeeeee, 
+ 0 10px 1px -4px rgba(0, 0, 0, 0.125), 
+ 0 20px 0 -10px #eeeeee, 
+ 0 20px 1px -9px rgba(0, 0, 0, 0.125), 
+ 0 1em 2em rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),
+ 0 10px 0 -5px #eeeeee, 
+ 0 10px 1px -4px rgba(0, 0, 0, 0.125), 
+ 0 20px 0 -10px #eeeeee,
+ 0 20px 1px -9px rgba(0, 0, 0, 0.125), s
+ 0 1em 2em rgba(0, 0, 0, 0.1);
+   3.1 Images 
+}
+
+#header .site-title {
+  margin-bottom: 0;
+  display: none;
+  font-family: 'smithyxt-heavyregular';
+}
+#header .site-title a {
+  color: #1A0B04;
+  font-family: 'smithyxt-heavyregular';
+  font-size: 32pt;
+}
+
+ h2, h3, p, li {
+    font-family: 'LeanderRegular' !important; 
+}
+
+p{
+  font-size: 12pt !important;
+}
+h3 {
+  font-size: 18pt;
+}
+
+#navigation {
+	  position: absolute;
+  top: 60%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+  background-image: url('images/papernav.png');
+  background-repeat: repeat;
+}
+
+#navigation ul.nav > li a:hover {
+  background-image: url('images/papernav.png');
+  background-repeat: repeat;
+}
+
+  #navigation ul.nav > li:hover,
+  #navigation ul.nav > li.current_page_item {
+  	  background-image: url('images/papernav.png');
+  background-repeat: repeat;
+}
+
+#navigation ul.nav > li:nth-child(n+6) {
+  border-right:none;
+}
+
+#sidebar .widget .inner {
+	border:none;
+}
+
+#header a.cart-button, #header a.checkout {
+	background-image: url('images/papernav.png');
+  	background-repeat: repeat;
+  	  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#header a.cart-button, #header a.checkout {
+    text-shadow: 0 0.5px 0 #7A5C68;
+    color: #1A0B04;
+}
+
+
+
+#header a.cart-button .lozenge, #header a.checkout .lozenge, #header a.cart-button .items, #header a.checkout .items {
+	background: none;
+	box-shadow: 0 0 0 0.15em #7A5C68 inset;
+ 
+}
+.woocommerce #main{width:100%}
+ul.products li {width:15%}
+
+.farmer {
+    margin: 0 0 2.618em;
+  padding: .01em;
+  position: relative;
+  background: url("images/crinkles.png") top no-repeat, url("images/post.png"), url("images/nav.gif");
+  background-color: #f7f2ee;
+  border: 1px solid #c4bfbb;
+  border-bottom: 0;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),  
+ 0 10px 0 -5px #eeeeee, 
+ 0 10px 1px -4px rgba(0, 0, 0, 0.125), 
+ 0 20px 0 -10px #eeeeee, 
+ 0 20px 1px -9px rgba(0, 0, 0, 0.125), 
+ 0 1em 2em rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),
+ 0 10px 0 -5px #eeeeee, 
+ 0 10px 1px -4px rgba(0, 0, 0, 0.125), 
+ 0 20px 0 -10px #eeeeee,
+ 0 20px 1px -9px rgba(0, 0, 0, 0.125), s
+ 0 1em 2em rgba(0, 0, 0, 0.1);
+  /* 3.1 Images */
+}
+
+.erhideWhenNoText {
+    background-image: url('images/papernav.png') !important;
+    background-repeat: repeat !important;
+    opacity: .9;
+
+}
+
+.erhideWhenNoText:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  top: 100%;
+  border-width: 5px 10px;
+  border-style: solid;
+  border-color: #666 #666 transparent transparent;
+}
+
+
+
+.erhideWhenNoText a, .chooseCleanse a {
+  color: black;
+  font-weight: bold;
+}
+
+#sidebar {
+  border-left: 3px dashed black;
+}
+
+.textwidget {
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+.chooseCleanse {
+
+    background-repeat: repeat;
+      -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    padding: 5px 15px;
+    background-image: url('images/papernav.png') !important;
+    background-repeat: repeat !important;
+    opacity: .95;
+}
+
+.erdots_btn_normal{
+  background-image: url('images/dot_regular.png') !important;
+
+}
+
+.ingredients{
+  float:left;
+  width:420px;
+}
+
+
+.ingredients li:nth-child(even), .faq li:nth-child(even){
+  padding-left: 40px;
+  margin-bottom: .6em !important;
+  list-style: none;
+   }
+
+.ingredients li:nth-child(odd), .faq li:nth-child(odd){
+  font-size: 16pt !important;
+  margin-bottom: .4em !important;
+  list-style-image: url('images/list_icon.png');
+  vertical-align: top;
+}
+
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+  opacity: .1 !important;
+}
+
+#navigation ul li:nth-child(n+8){
+  display:none;
+}
+
+#navigation ul ul.children li {
+  display: block !important;
+  margin-left: 0 !important;
+}
+
+#navigation ul li:nth-child(6){
+  padding-left: 3em;
+}
+
+.tips ul li {
+  list-style-image: url('images/list_icon.png');
+}
+
+#sidebar .widget .inner {
+  padding: 0 .6em !important;
+}
+
+.widget_sp_image-description {
+  text-align: center;
+}
+
+#sidebar img:nth-child(1) {
+  margin-left: 1em;
+}
+
+#sidebar img:nth-child(n+1) {
+  margin-left: 5em;
+}
+
+#navigation ul.nav ul {
+  background-image: url('images/papernav.png');
+  background-repeat: repeat;
+}
+
+.crossSells ul.products li.product .img-wrap {
+  background: none !important;
+  box-shadow: none !important;
+  margin-bottom: 0;
+}
+
+.crossSells ul.products li img, ul.featured-products li img {
+  height: 50%;
+  width: 50%;
+  float:left;
+}
+
+.products {
+  margin: 0;
+}
+
+.crossSells ul.products li.product h3 {
+  font-weight: bold;
+}
+
+#header a.cart-button .label:before, #header a.checkout .label:before {
+  content: url('images/truckbw.png');
+}
+
+
+#header a.cart-button .label:before, #header a.checkout .label {
+  font-weight: bolder;
+}
+
+/*
+FONTS*/
+@font-face {
+    font-family: 'smithyxt-fadedregular';
+    src: url('typefaces/smithyxt-faded-v2-2.eot');
+    src: url('typefaces/smithyxt-faded-v2-2.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/smithyxt-faded-v2-2.woff') format('woff'),
+         url('typefaces/smithyxt-faded-v2-2.ttf') format('truetype'),
+         url('typefaces/smithyxt-faded-v2-2.svg#smithyxt-fadedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'smithyxt-heavyregular';
+    src: url('typefaces/smithyxt-heavy-v2-2.eot');
+    src: url('typefaces/smithyxt-heavy-v2-2.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/smithyxt-heavy-v2-2.woff') format('woff'),
+         url('typefaces/smithyxt-heavy-v2-2.ttf') format('truetype'),
+         url('typefaces/smithyxt-heavy-v2-2.svg#smithyxt-heavyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'smithyxt-regularregular';
+    src: url('typefaces/smithyxt-regular-v2-2.eot');
+    src: url('typefaces/smithyxt-regular-v2-2.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/smithyxt-regular-v2-2.woff') format('woff'),
+         url('typefaces/smithyxt-regular-v2-2.ttf') format('truetype'),
+         url('typefaces/smithyxt-regular-v2-2.svg#smithyxt-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'smithyxy-veryheavyregular';
+    src: url('typefaces/smithyxt-veryheavy-v2-2.eot');
+    src: url('typefaces/smithyxt-veryheavy-v2-2.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/smithyxt-veryheavy-v2-2.woff') format('woff'),
+         url('typefaces/smithyxt-veryheavy-v2-2.ttf') format('truetype'),
+         url('typefaces/smithyxt-veryheavy-v2-2.svg#smithyxy-veryheavyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BelligerentMadnessRegular';
+    src: url('typefaces/belligerent-webfont.eot');
+    src: url('typefaces/belligerent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/belligerent-webfont.woff') format('woff'),
+         url('typefaces/belligerent-webfont.ttf') format('truetype'),
+         url('typefaces/belligerent-webfont.svg#BelligerentMadnessRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeanderRegular';
+    src: url('typefaces/Leander-webfont.eot');
+    src: url('typefaces/Leander-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/Leander-webfont.woff') format('woff'),
+         url('typefaces/Leander-webfont.ttf') format('truetype'),
+         url('typefaces/Leander-webfont.svg#LeanderRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'spiralsregular';
+    src: url('typefaces/spirals_1.eot');
+    src: url('typefaces/spirals_1.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/spirals_1.woff') format('woff'),
+         url('typefaces/spirals_1.ttf') format('truetype'),
+         url('typefaces/spirals_1.svg#spiralsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
